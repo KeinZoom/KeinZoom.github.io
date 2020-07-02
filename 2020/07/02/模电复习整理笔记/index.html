@@ -183,8 +183,81 @@
 <hr>
 <p><strong>二极管的组成</strong>  </p>
 <p><img src="/pic/%E4%BA%8C%E6%9E%81%E7%AE%A1%E7%BB%84%E6%88%90.png" alt="二极管组成">  </p>
+<hr>
 <p><strong>二极管伏安特性</strong>  </p>
-<p><img src="/pic/%E4%BC%8F%E5%AE%89%E7%89%B9%E6%80%A7.png" alt="伏安特性"></p>
+<p><img src="/pic/%E4%BC%8F%E5%AE%89%E7%89%B9%E6%80%A7%E6%9B%B2%E7%BA%BF.png" alt="伏安特性">  </p>
+<ol>
+<li>施加反向电压时，随着电压增大，反向电流也增大<br>但由于少子漂移运动存在界限，反向电流到达饱和，即<strong>反向饱和电流</strong><br>而此时若增大反向电压至<strong>击穿电压</strong>，则二极管极有可能被击穿而损坏。  </li>
+<li>施加正向电压时，由于二极管两端存在电阻以及扩散运动与漂移运动需达到平衡，存在一<strong>开启电压</strong>，超过此电压时，电流逐步增大。</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th align="center">材料</th>
+<th align="center">开启电压</th>
+<th align="center">导通电压</th>
+<th align="center">反向饱和电流</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">硅Si</td>
+<td align="center">0.5V</td>
+<td align="center">0.5-0.8V</td>
+<td align="center">1μA以下</td>
+</tr>
+<tr>
+<td align="center">锗Ge</td>
+<td align="center">0.1V</td>
+<td align="center">0.1-0.3V</td>
+<td align="center">几十μA</td>
+</tr>
+</tbody></table>
+<ol start="3">
+<li><strong>伏安特性曲线体现的单向导电性</strong></li>
+</ol>
+<p><img src="/pic/%E5%8D%95%E5%90%91%E5%AF%BC%E7%94%B5%E6%80%A7.png" alt="单向">  </p>
+<ol start="4">
+<li><strong>受温度的影响</strong></li>
+</ol>
+<p><img src="/pic/%E4%BC%8F%E5%AE%89%E4%B8%8E%E6%B8%A9%E5%BA%A6.png" alt="伏安温度">  </p>
+<hr>
+<p><strong>二极管等效电路</strong>  </p>
+<ol>
+<li><p>理想二极管、理想开关模型<br><img src="/pic/%E7%90%86%E6%83%B3%E4%BA%8C%E6%9E%81%E7%AE%A1.png" alt="理想二极管"><br>此时等效电路为一开关  </p>
+</li>
+<li><p>近似分析模型<br><img src="/pic/%E8%BF%91%E4%BC%BC%E5%88%86%E6%9E%90.png" alt="近似分析"><br>此时等效电路为二极管+电源  </p>
+</li>
+<li><p>线性关系模型<br><img src="/pic/%E7%BA%BF%E6%80%A7%E5%85%B3%E7%B3%BB.png" alt="线性关系"><br>此时等效电路为二极管+电源+电阻  </p>
+</li>
+<li><p><strong><em>微变等效电路</em></strong><br><img src="/pic/%E5%BE%AE%E5%8F%98%E7%AD%89%E6%95%88%E7%94%B5%E8%B7%AF.png" alt="微变等效电路">  </p>
+<p><em>前提条件</em>：<strong><em>直流源</em></strong>+<strong><em>交流源</em></strong>混合作用<br><em>分析方法</em>：运用叠加原理  </p>
+<p>首先分析直流源单独作用时，可确定一点Q，对应电源电压为ID与UD；<br>在此基础上，引入交流源作用的变化Δi与Δu；<br>在此变化区间内，可将二极管等效为一电阻，此电阻值与Q点紧密相关。  </p>
+</li>
+</ol>
+<hr>
+<p><strong>二极管的主要参数</strong>  </p>
+<ol>
+<li><p>最大整流电流I<em>F</em>：一般为正弦交流电半周的平均值  </p>
+</li>
+<li><p>最大反向工作电压U<em>R</em>：最大瞬时值，超过此电压二极管击穿而损坏  </p>
+</li>
+<li><p>反向电流  </p>
+</li>
+<li><p>最高工作频率：PN结的电容效应对工作频率的要求  </p>
+</li>
+</ol>
+<hr>
+<p><strong>稳压二极管</strong>  </p>
+<p>反向击穿后，在一定的电流范围内，端电压保持稳定的二极管  </p>
+<p><img src="/pic/%E7%A8%B3%E5%8E%8B%E4%BA%8C%E6%9E%81%E7%AE%A1.png" alt="稳压"></p>
+<p><em>主要参数</em>：  </p>
+<ol>
+<li>稳定电压UZ</li>
+<li>稳定电流IZ</li>
+<li>最大功耗PZM=IZM*UZM</li>
+<li>动态电阻rZ=ΔUZ/ΔIZ  </li>
+</ol>
+<hr>
 </div>
 
       <div class="post-copyright">
